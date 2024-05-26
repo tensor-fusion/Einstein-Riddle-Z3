@@ -28,8 +28,13 @@ The clues are:
 
 Z3 is an SMT solver / theorem prover used to check the satisfiability of logical formulas over one or more theories.
 
+If you run:
 ```
-z3 einst.smt2                                                           
+z3 einst.smt2
+```
+
+You'll get the output:
+```
 sat
 (
   (define-fun PallMall () Int 3)
@@ -60,7 +65,7 @@ sat
 )
 ```
 
-The output contains the `(define-fun <variable> () Int <value>)` statements where each variable represents an attribute of a house in the puzzle (nationality, house color, beverage, cigar, or pet).
+The output consists of `(define-fun <variable> () Int <value>)` statements where each variable represents an attribute of a house in the puzzle (nationality, house color, beverage, cigar, or pet).
 The values are ints corresponding to these attributes, e.g.
 
 - `(define-fun YellowHouse () Int 2)` means the color of the second house is Yellow.
