@@ -48,7 +48,7 @@ The values are ints corresponding to these attributes, e.g.
 
 - `(define-fun YellowHouse () Int 2)` means the color of the second house is Yellow.
 - `(define-fun Fish () Int 4)` means the pet in the fourth house is Fish.
-- 
+  
 ## Houses
 
 Output table:
